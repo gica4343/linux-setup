@@ -7,3 +7,6 @@
 [submodule "alacritty.conf"]
 	path = alacritty.conf
 	url = https://github.com/gica4343/alacritty.conf.git
+[submodule "zshrc"]
+	path = zshrc
+	url = https://github.com/gica4343/zshrc.git
