@@ -8,9 +8,6 @@ cd tmux.config
 mv .tmux.conf /home/$USER
 cd && rm -rf tmux.config/
 
-# alacritty
-git clone https://github.com/gica4343/alacritty.conf.git ~/.config/alacritty
-
 # zsh
 git clone https://github.com/gica4343/zshrc.git
 cd zshrc
