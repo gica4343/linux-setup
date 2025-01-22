@@ -14,6 +14,8 @@ cd zshrc
 cp .zshrc ~ && cd ~
 
 # sleep
+git clone https://github.com/gica4343/linux-setup.git && cd linux-setup/
 sudo cp disable-some-wake /usr/lib/systemd/system-sleep
 sudo chmod 755 /usr/lib/systemd/system-sleep/disable-some-wake
+cd
 ```
