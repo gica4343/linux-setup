@@ -5,6 +5,7 @@ sudo snap install nvim --classic
 sudo apt install build-essential
 sudo apt install unzip
 sudo apt install zsh
+sudo apt install gh
 
 # neovim
 git clone https://github.com/gica4343/neovim.config.git ~/.config/nvim
