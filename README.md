@@ -7,6 +7,11 @@ sudo apt install zsh
 sudo apt install gh
 
 # neovim
+git clone https://github.com/neovim/neovim
+cd neovim
+git checkout stable
+make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
 git clone https://github.com/gica4343/neovim.config.git ~/.config/nvim
 
 # tmux
