@@ -4,6 +4,7 @@ sudo apt update && sudo apt upgrade
 sudo apt-get install ninja-build gettext cmake curl build-essential
 sudo apt install unzip
 sudo apt install zsh
+sudo apt install git
 sudo apt install gh
 
 # neovim
