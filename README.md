@@ -1,8 +1,7 @@
 ```
 # dependencies
 sudo apt update && sudo apt upgrade
-sudo snap install nvim --classic
-sudo apt install build-essential
+sudo apt-get install ninja-build gettext cmake curl build-essential
 sudo apt install unzip
 sudo apt install zsh
 sudo apt install gh
