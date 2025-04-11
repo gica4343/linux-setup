@@ -13,7 +13,7 @@ cd neovim
 git checkout stable
 make CMAKE_BUILD_TYPE=RelWithDebInfo
 sudo make install && cd
-git clone https://github.com/gica4343/neovim.config.git ~/.config/nvim
+git clone https://github.com/gica4343/init.lua.git ~/.config/nvim
 
 # tmux
 git clone https://github.com/gica4343/tmux.config.git
