@@ -1,7 +1,7 @@
 ```
 # dependencies
 sudo apt update && sudo apt upgrade
-sudo apt-get install ninja-build gettext cmake curl build-essential
+sudo apt-get install ninja-build gettext cmake curl ripgrep build-essential
 sudo apt install unzip
 sudo apt install zsh
 sudo apt install git
@@ -21,8 +21,11 @@ cd tmux.config
 mv .tmux.conf /home/$USER
 cd && rm -rf tmux.config/
 
+# alacritty
+git clone https://github.com/gica4343/alacritty.conf.git ~/.config/alacritty
+
 # omz
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" && zsh
 
 # zsh
 git clone https://github.com/gica4343/zshrc.git
